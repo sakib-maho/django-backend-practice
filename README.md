@@ -20,15 +20,6 @@ extended into larger API systems.
 - Django admin integration for data inspection
 - Automated test suite with API-level coverage
 
-## API Endpoints
-
-- `GET /api/health/`
-- `GET /api/notes/`
-- `POST /api/notes/`
-- `GET /api/notes/<id>/`
-- `PUT /api/notes/<id>/`
-- `DELETE /api/notes/<id>/`
-
 ## Quick Start
 
 ```bash
@@ -43,11 +34,24 @@ python manage.py runserver
 
 Open: `http://127.0.0.1:8000/api/health/`
 
-## Run Tests
+## Tests
 
 ```bash
 python manage.py test
 ```
+
+## License
+
+MIT License. See `LICENSE`.
+
+## API Endpoints
+
+- `GET /api/health/`
+- `GET /api/notes/`
+- `POST /api/notes/`
+- `GET /api/notes/<id>/`
+- `PUT /api/notes/<id>/`
+- `DELETE /api/notes/<id>/`
 
 ## Project Structure
 
@@ -63,7 +67,3 @@ django-backend-practice/
 ├── manage.py
 └── requirements.txt
 ```
-
-## License
-
-MIT License. See `LICENSE`.
