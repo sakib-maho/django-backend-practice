@@ -33,3 +33,5 @@ venv/
 dist/
 build/
 *.egg-info/
+db.sqlite3
+staticfiles/
