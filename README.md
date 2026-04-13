@@ -1,5 +1,12 @@
 # Django Backend Practice API
 
+<!-- BrandCloud:readme-standard -->
+[![Maintained](https://img.shields.io/badge/Maintained-yes-brightgreen.svg)](#)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Showcase](https://img.shields.io/badge/Portfolio-Showcase-blue.svg)](#)
+
+_Part of the `sakib-maho` project showcase series with consistent documentation and quality standards._
+
 Production-style Django backend starter featuring a Notes CRUD JSON API, health checks, validation,
 and automated tests. This repository is designed as a clean backend practice project that can be
 extended into larger API systems.
